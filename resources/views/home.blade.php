@@ -27,9 +27,9 @@
     <!-- Navigation Section -->
     <div class="mt-8 flex justify-center space-x-4">
         <a href="#popular-games" class="border border-black text-black py-1 px-2 w-40 rounded-full hover:bg-[#FB2576] transition">🔥Lagi Populer🔥</a>
-        <a href="#game-vouchers" class="border border-black text-black py-1 px-2 w-40 rounded-full hover:bg-[#FB2576] transition">Game Mobile</a>
-        <a href="#game-vouchers" class="border border-black text-black py-1 px-2 w-40 rounded-full hover:bg-[#FB2576] transition">Game PC</a>
-        <a href="#game-vouchers" class="border border-black text-black py-1 px-2 w-40 rounded-full hover:bg-[#FB2576] transition">🌟Baru Rilis🌟</a>
+        <a href="#game-mobile" class="border border-black text-black py-1 px-2 w-40 rounded-full hover:bg-[#FB2576] transition">Game Mobile</a>
+        <a href="#game-pc" class="border border-black text-black py-1 px-2 w-40 rounded-full hover:bg-[#FB2576] transition">Game PC</a>
+        <a href="#baru-rilis" class="border border-black text-black py-1 px-2 w-40 rounded-full hover:bg-[#FB2576] transition">🌟Baru Rilis🌟</a>
         <a href="#game-vouchers" class="border border-black text-black py-1 px-2 w-40 rounded-full hover:bg-[#FB2576] transition">Voucher</a>
     </div>
 
@@ -69,18 +69,148 @@
         </div>
     </div>
 
+    <!-- Game Mobile Section -->
+    <div id="game-mobile" class="mt-12">
+        <h2 class="text-2xl font-bold text-[#150050]">Game Mobile</h2>
+        <div class="mt-4 grid grid-cols-6 md:grid-cols-6 gap-6">
+            <a href="#" class="flex flex-col items-center bg-[#3F0071] p-4 rounded-lg shadow-lg hover:shadow-xl transition duration-700 ease-in-out transform hover:scale-110">
+                <img src="{{ asset('assets/games/mobile-legend.jpg') }}" alt="Mobile Legend" class="w-24 h-24 rounded-full object-cover">
+                <span class="mt-2 text-white font-semibold">Mobile Legend</span>
+            </a>
+            <a href="#" class="flex flex-col items-center bg-[#3F0071] p-4 rounded-lg shadow-lg hover:shadow-xl transition duration-700 ease-in-out transform hover:scale-110">
+                <img src="{{ asset('assets/games/pubg-mobile.png') }}" alt="PUBG Mobile" class="w-24 h-24 rounded-full object-cover">
+                <span class="mt-2 text-white font-semibold">PUBG Mobile</span>
+            </a>
+            <a href="#" class="flex flex-col items-center bg-[#3F0071] p-4 rounded-lg shadow-lg hover:shadow-xl transition duration-700 ease-in-out transform hover:scale-110">
+                <img src="{{ asset('assets/games/free-fire.jpg') }}" alt="Free Fire" class="w-24 h-24 rounded-full object-cover">
+                <span class="mt-2 text-white font-semibold">Free Fire</span>
+            </a>
+            <a href="#" class="flex flex-col items-center bg-[#3F0071] p-4 rounded-lg shadow-lg hover:shadow-xl transition duration-700 ease-in-out transform hover:scale-110">
+                <img src="{{ asset('assets/games/genshin-impact.jpg') }}" alt="Genshin Impact" class="w-24 h-24 rounded-full object-cover">
+                <span class="mt-2 text-white font-semibold">Genshin Impact</span>
+            </a>
+            <a href="#" class="flex flex-col items-center bg-[#3F0071] p-4 rounded-lg shadow-lg hover:shadow-xl transition duration-700 ease-in-out transform hover:scale-110">
+                <img src="{{ asset('assets/games/hok.jpg') }}" alt="Honor of Kings" class="w-24 h-24 rounded-full object-cover">
+                <span class="mt-2 text-white font-semibold">Honor of Kings</span>
+            </a>
+            <!-- Add more game items here -->
+            <a href="#" class="flex flex-col items-center bg-[#3F0071] p-4 rounded-lg shadow-lg hover:shadow-xl transition duration-700 ease-in-out transform hover:scale-110">
+                <img src="{{ asset('assets/games/hok.jpg') }}" alt="Honor of Kings" class="w-24 h-24 rounded-full object-cover">
+                <span class="mt-2 text-white font-semibold">Honor of Kings</span>
+            </a>
+            <a href="#" class="flex flex-col items-center bg-[#3F0071] p-4 rounded-lg shadow-lg hover:shadow-xl transition duration-700 ease-in-out transform hover:scale-110">
+                <img src="{{ asset('assets/games/hok.jpg') }}" alt="Honor of Kings" class="w-24 h-24 rounded-full object-cover">
+                <span class="mt-2 text-white font-semibold">Honor of Kings</span>
+            </a>
+        </div>
+</div>
+
+    <!-- Game PC Section -->
+    <div id="game-pc" class="mt-12">
+        <h2 class="text-2xl font-bold text-[#150050]">Game Mobile</h2>
+        <div class="mt-4 grid grid-cols-6 md:grid-cols-6 gap-6">
+            <a href="#" class="flex flex-col items-center bg-[#3F0071] p-4 rounded-lg shadow-lg hover:shadow-xl transition duration-700 ease-in-out transform hover:scale-110">
+                <img src="{{ asset('assets/games/mobile-legend.jpg') }}" alt="Mobile Legend" class="w-24 h-24 rounded-full object-cover">
+                <span class="mt-2 text-white font-semibold">Mobile Legend</span>
+            </a>
+            <a href="#" class="flex flex-col items-center bg-[#3F0071] p-4 rounded-lg shadow-lg hover:shadow-xl transition duration-700 ease-in-out transform hover:scale-110">
+                <img src="{{ asset('assets/games/pubg-mobile.png') }}" alt="PUBG Mobile" class="w-24 h-24 rounded-full object-cover">
+                <span class="mt-2 text-white font-semibold">PUBG Mobile</span>
+            </a>
+            <a href="#" class="flex flex-col items-center bg-[#3F0071] p-4 rounded-lg shadow-lg hover:shadow-xl transition duration-700 ease-in-out transform hover:scale-110">
+                <img src="{{ asset('assets/games/free-fire.jpg') }}" alt="Free Fire" class="w-24 h-24 rounded-full object-cover">
+                <span class="mt-2 text-white font-semibold">Free Fire</span>
+            </a>
+            <a href="#" class="flex flex-col items-center bg-[#3F0071] p-4 rounded-lg shadow-lg hover:shadow-xl transition duration-700 ease-in-out transform hover:scale-110">
+                <img src="{{ asset('assets/games/genshin-impact.jpg') }}" alt="Genshin Impact" class="w-24 h-24 rounded-full object-cover">
+                <span class="mt-2 text-white font-semibold">Genshin Impact</span>
+            </a>
+            <a href="#" class="flex flex-col items-center bg-[#3F0071] p-4 rounded-lg shadow-lg hover:shadow-xl transition duration-700 ease-in-out transform hover:scale-110">
+                <img src="{{ asset('assets/games/hok.jpg') }}" alt="Honor of Kings" class="w-24 h-24 rounded-full object-cover">
+                <span class="mt-2 text-white font-semibold">Honor of Kings</span>
+            </a>
+            <!-- Add more game items here -->
+            <a href="#" class="flex flex-col items-center bg-[#3F0071] p-4 rounded-lg shadow-lg hover:shadow-xl transition duration-700 ease-in-out transform hover:scale-110">
+                <img src="{{ asset('assets/games/hok.jpg') }}" alt="Honor of Kings" class="w-24 h-24 rounded-full object-cover">
+                <span class="mt-2 text-white font-semibold">Honor of Kings</span>
+            </a>
+            <a href="#" class="flex flex-col items-center bg-[#3F0071] p-4 rounded-lg shadow-lg hover:shadow-xl transition duration-700 ease-in-out transform hover:scale-110">
+                <img src="{{ asset('assets/games/hok.jpg') }}" alt="Honor of Kings" class="w-24 h-24 rounded-full object-cover">
+                <span class="mt-2 text-white font-semibold">Honor of Kings</span>
+            </a>
+        </div>
+</div>
+
+    <!-- Baru Rilis Section -->
+    <div id="baru-rilis" class="mt-12">
+        <h2 class="text-2xl font-bold text-[#150050]">🌟Baru Rilis🌟</h2>
+        <div class="mt-4 grid grid-cols-6 md:grid-cols-6 gap-6">
+            <a href="#" class="flex flex-col items-center bg-[#3F0071] p-4 rounded-lg shadow-lg hover:shadow-xl transition duration-700 ease-in-out transform hover:scale-110">
+                <img src="{{ asset('assets/games/mobile-legend.jpg') }}" alt="Mobile Legend" class="w-24 h-24 rounded-full object-cover">
+                <span class="mt-2 text-white font-semibold">Mobile Legend</span>
+            </a>
+            <a href="#" class="flex flex-col items-center bg-[#3F0071] p-4 rounded-lg shadow-lg hover:shadow-xl transition duration-700 ease-in-out transform hover:scale-110">
+                <img src="{{ asset('assets/games/pubg-mobile.png') }}" alt="PUBG Mobile" class="w-24 h-24 rounded-full object-cover">
+                <span class="mt-2 text-white font-semibold">PUBG Mobile</span>
+            </a>
+            <a href="#" class="flex flex-col items-center bg-[#3F0071] p-4 rounded-lg shadow-lg hover:shadow-xl transition duration-700 ease-in-out transform hover:scale-110">
+                <img src="{{ asset('assets/games/free-fire.jpg') }}" alt="Free Fire" class="w-24 h-24 rounded-full object-cover">
+                <span class="mt-2 text-white font-semibold">Free Fire</span>
+            </a>
+            <a href="#" class="flex flex-col items-center bg-[#3F0071] p-4 rounded-lg shadow-lg hover:shadow-xl transition duration-700 ease-in-out transform hover:scale-110">
+                <img src="{{ asset('assets/games/genshin-impact.jpg') }}" alt="Genshin Impact" class="w-24 h-24 rounded-full object-cover">
+                <span class="mt-2 text-white font-semibold">Genshin Impact</span>
+            </a>
+            <a href="#" class="flex flex-col items-center bg-[#3F0071] p-4 rounded-lg shadow-lg hover:shadow-xl transition duration-700 ease-in-out transform hover:scale-110">
+                <img src="{{ asset('assets/games/hok.jpg') }}" alt="Honor of Kings" class="w-24 h-24 rounded-full object-cover">
+                <span class="mt-2 text-white font-semibold">Honor of Kings</span>
+            </a>
+            <!-- Add more game items here -->
+            <a href="#" class="flex flex-col items-center bg-[#3F0071] p-4 rounded-lg shadow-lg hover:shadow-xl transition duration-700 ease-in-out transform hover:scale-110">
+                <img src="{{ asset('assets/games/hok.jpg') }}" alt="Honor of Kings" class="w-24 h-24 rounded-full object-cover">
+                <span class="mt-2 text-white font-semibold">Honor of Kings</span>
+            </a>
+            <a href="#" class="flex flex-col items-center bg-[#3F0071] p-4 rounded-lg shadow-lg hover:shadow-xl transition duration-700 ease-in-out transform hover:scale-110">
+                <img src="{{ asset('assets/games/hok.jpg') }}" alt="Honor of Kings" class="w-24 h-24 rounded-full object-cover">
+                <span class="mt-2 text-white font-semibold">Honor of Kings</span>
+            </a>
+        </div>
+</div>
+
     <!-- Game Vouchers Section -->
     <div id="game-vouchers" class="mt-12">
-        <h2 class="text-2xl font-bold text-[#150050]">Voucher Game</h2>
-        <div class="mt-4 grid grid-cols-2 md:grid-cols-4 gap-4">
-            <!-- Example Voucher Item -->
-            <div class="flex flex-col items-center">
-                <img src="{{ asset('assets/voucher1.jpg') }}" alt="Voucher 1" class="w-24 h-24 rounded-full object-cover">
-                <span class="mt-2 text-gray-700">Voucher 1</span>
-            </div>
-            <!-- Add more voucher items here -->
+        <h2 class="text-2xl font-bold text-[#150050]">Game Voucher</h2>
+        <div class="mt-4 grid grid-cols-6 md:grid-cols-6 gap-6">
+            <a href="#" class="flex flex-col items-center bg-[#3F0071] p-4 rounded-lg shadow-lg hover:shadow-xl transition duration-700 ease-in-out transform hover:scale-110">
+                <img src="{{ asset('assets/games/mobile-legend.jpg') }}" alt="Mobile Legend" class="w-24 h-24 rounded-full object-cover">
+                <span class="mt-2 text-white font-semibold">Mobile Legend</span>
+            </a>
+            <a href="#" class="flex flex-col items-center bg-[#3F0071] p-4 rounded-lg shadow-lg hover:shadow-xl transition duration-700 ease-in-out transform hover:scale-110">
+                <img src="{{ asset('assets/games/pubg-mobile.png') }}" alt="PUBG Mobile" class="w-24 h-24 rounded-full object-cover">
+                <span class="mt-2 text-white font-semibold">PUBG Mobile</span>
+            </a>
+            <a href="#" class="flex flex-col items-center bg-[#3F0071] p-4 rounded-lg shadow-lg hover:shadow-xl transition duration-700 ease-in-out transform hover:scale-110">
+                <img src="{{ asset('assets/games/free-fire.jpg') }}" alt="Free Fire" class="w-24 h-24 rounded-full object-cover">
+                <span class="mt-2 text-white font-semibold">Free Fire</span>
+            </a>
+            <a href="#" class="flex flex-col items-center bg-[#3F0071] p-4 rounded-lg shadow-lg hover:shadow-xl transition duration-700 ease-in-out transform hover:scale-110">
+                <img src="{{ asset('assets/games/genshin-impact.jpg') }}" alt="Genshin Impact" class="w-24 h-24 rounded-full object-cover">
+                <span class="mt-2 text-white font-semibold">Genshin Impact</span>
+            </a>
+            <a href="#" class="flex flex-col items-center bg-[#3F0071] p-4 rounded-lg shadow-lg hover:shadow-xl transition duration-700 ease-in-out transform hover:scale-110">
+                <img src="{{ asset('assets/games/hok.jpg') }}" alt="Honor of Kings" class="w-24 h-24 rounded-full object-cover">
+                <span class="mt-2 text-white font-semibold">Honor of Kings</span>
+            </a>
+            <!-- Add more game items here -->
+            <a href="#" class="flex flex-col items-center bg-[#3F0071] p-4 rounded-lg shadow-lg hover:shadow-xl transition duration-700 ease-in-out transform hover:scale-110">
+                <img src="{{ asset('assets/games/hok.jpg') }}" alt="Honor of Kings" class="w-24 h-24 rounded-full object-cover">
+                <span class="mt-2 text-white font-semibold">Honor of Kings</span>
+            </a>
+            <a href="#" class="flex flex-col items-center bg-[#3F0071] p-4 rounded-lg shadow-lg hover:shadow-xl transition duration-700 ease-in-out transform hover:scale-110">
+                <img src="{{ asset('assets/games/hok.jpg') }}" alt="Honor of Kings" class="w-24 h-24 rounded-full object-cover">
+                <span class="mt-2 text-white font-semibold">Honor of Kings</span>
+            </a>
         </div>
-    </div>
 </div>
 
 <script>
